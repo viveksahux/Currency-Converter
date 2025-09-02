@@ -1,12 +1,60 @@
-# React + Vite
+# 💱 React Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive currency converter built with **React** and **Tailwind CSS**, created to practice using **custom hooks**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 🔁 Convert from one currency to another in real-time
+- 🔄 Swap "From" and "To" currencies
+- 🌐 Fetches exchange rates dynamically from a JSON API
+- 🔍 Clean UI with `Tailwind CSS`
+- 🧠 Uses a custom `useCurrency` hook to manage currency data fetching
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Purpose
+
+This project was created to **learn and practice custom React hooks** — specifically:
+
+- Separating logic for data fetching
+- Making components more reusable and cleaner
+- React `useEffect`, `useState`, and controlled components
+
+---
+
+## 🧩 Tech Stack
+
+- **React** (Vite)
+- **Tailwind CSS**
+- **Axios**
+- **Custom Hooks**
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/react-currency-converter.git
+cd react-currency-converter
+```
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Setup .env   
+Create a .env file in the root:
+```env
+VITE_API_URL=https://api.exchangerate-api.com/v4/latest
+```
+
+### 4. Run the app
+```bash
+npm run dev
+```
+
+
