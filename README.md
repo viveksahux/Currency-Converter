@@ -38,7 +38,7 @@ This project was created to **learn and practice custom React hooks** — specif
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/react-currency-converter.git
+git clone https://github.com/viveksahux/Currency-Converter.git
 cd react-currency-converter
 ```
 ### 2. Install dependencies
