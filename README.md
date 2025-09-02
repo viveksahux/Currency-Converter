@@ -61,4 +61,6 @@ npm run dev
 ![screenshot](image.png)
 > This project is just for fun and learning
 
+## Credits
+This project is based on a tutorial by [Hitesh Choudhary](https://github.com/hiteshchoudhary/chai-aur-react/tree/main/06currencyConvertor).
 
