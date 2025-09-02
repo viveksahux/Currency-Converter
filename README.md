@@ -49,7 +49,7 @@ npm install
 ### 3. Setup .env   
 Create a .env file in the root:
 ```env
-VITE_API_URL=https://api.exchangerate-api.com/v4/latest
+VITE_API_URL=https://latest.currency-api.pages.dev/v1/currencies
 ```
 
 ### 4. Run the app
