@@ -56,5 +56,6 @@ VITE_API_URL=https://latest.currency-api.pages.dev/v1/currencies
 ```bash
 npm run dev
 ```
+> This project is just for fun and learning
 
 
